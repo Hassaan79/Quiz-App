@@ -96,6 +96,7 @@ const Quiz = () => {
             {question.option4}
           </li>
         </ul>
+        <button onClick={next}>Previous</button>
         <button onClick={next}>Next</button>
         <div className="index">
           {index + 1} of {data.length} questions
